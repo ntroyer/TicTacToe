@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.10.2.js"></script>
+<script src="TTT.js"></script>
+<link rel="stylesheet" type="text/css" href="TTTCSS.css">
+
+</head>
+
+
+
+
+<body>
+
+
+<h1 class="textcenter">KOALA</h1>
+<h2 class="textcenter">TIC TAC TOE </h2>
+
+<div id="buttons">
+<button id="home">HOME</button>
+<button id="playComp" class="play">PLAY VS COMPUTER</button><br>
+<button id="playFriend" class="play">PLAY VS FRIEND</button><br>
+<button id="playRandom" class="play">PLAY VS RANDOM OPPONENT</button><br>
+<button id="leaderboard" class="play">LEADERBOARD</button><br>
+<button id="friendslist">FRIENDS LIST</button><br>
+<button id="addfriend">ADD FRIEND</button><br>
+
+</div><br>
+
+<div id="grid">
+	<div class="row">
+		<div class="box" id="0"></div>
+		<div class="box" id="1"></div>
+		<div class="box" id="2"></div>
+	</div>
+	<div class="row">
+		<div class="box" id="3"></div>
+		<div class="box" id="4"></div>
+		<div class="box" id="5"></div>
+	</div>
+	<div class="row">
+		<div class="box" id="6"></div>
+		<div class="box" id="7"></div>
+		<div class="box" id="8"></div>
+	</div>
+</div>
+
+<form id="signin">
+Name: <input type="text" name="name"><br><br>
+Email: <input type="email" name="email"><br><br>
+Password:   <input type="password" name="password"><br><br>
+<input type="submit" value="Submit" id="submitbutton">
+</form>
+
+<form id="addFriendEmail">
+Email: <input type="email" name="email"><br><br>
+<input type="submit" value="Submit" id="submitAddFriend">
+</form>
+
+<img id="X" class="image" src="X.gif"/>
+<img id="O" class="image" src="O.gif"/>
+
+
+
+<div id=leadertable></div>
+<div id=friendstable></div>
+</body>
+
+
+</html>
